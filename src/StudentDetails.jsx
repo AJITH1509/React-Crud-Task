@@ -5,6 +5,7 @@ import {
   CardContent,
   Typography,
   IconButton,
+  CardHeader,
 } from "@mui/material";
 import React from "react";
 import EditIcon from "@mui/icons-material/Edit";
@@ -27,7 +28,7 @@ export function StudentDetails({ stud, editdata, deletedata }) {
         </Typography>
 
         <Typography variant="body2" color="text.secondary">
-          PLace : {stud.Place}
+          Address : {stud.Place}
         </Typography>
 
         <Typography variant="body2" color="text.secondary">
